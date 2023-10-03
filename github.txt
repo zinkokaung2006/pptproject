@@ -1,6 +1,5 @@
 (တစ်ခါဘဲလုပ်ရမယ့်ဟာ)
 
-
 git --version
 
 git config --global user.name "Zin Ko Aung"
@@ -23,6 +22,8 @@ ssh -T git@github.com
 
 ______________________________________________________________________________________________
 
+(ထပ်ခါထပ်ခါလုပ်ရမယ့်ဟာ)
+
 -->Initilize to project folder
 git init (install of git)
 
@@ -33,5 +34,11 @@ git remote add origin git@github.com:zinkokaung2006/pptproject.git
 git remote -v
 
 ______________________________________________________________________________________________
+git start
+git add * "or" git add -A
 
-(ထပ်ခါထပ်ခါလုပ်ရမယ့်ဟာ)
+git status 
+
+git commit -m "My first project"
+
+git push -u origin master
