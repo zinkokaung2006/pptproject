@@ -1,0 +1,37 @@
+(တစ်ခါဘဲလုပ်ရမယ့်ဟာ)
+
+
+git --version
+
+git config --global user.name "Zin Ko Aung"
+
+git config --global user.name
+
+
+git config --global user.email "zinkoaung2006@gmail.com"
+
+git config user.email
+
+
+Connect by SSH(Secure shell protoncol )(only add by pub file in github ssh key.)
+
+ssh-keygen -t rsa
+
+-->Check Connection
+
+ssh -T git@github.com
+
+______________________________________________________________________________________________
+
+-->Initilize to project folder
+git init (install of git)
+
+-->Connect Project folder to Repository
+git remote add origin git@github.com:zinkokaung2006/pptproject.git
+
+-->Check Repository URL
+git remote -v
+
+______________________________________________________________________________________________
+
+(ထပ်ခါထပ်ခါလုပ်ရမယ့်ဟာ)
